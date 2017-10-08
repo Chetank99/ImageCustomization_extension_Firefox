@@ -1,0 +1,18 @@
+{
+"manifest_version": 2,
+"name" : "Image Customized Search",
+"description" : "Image according to format type.",
+
+
+  "version": "1.0",
+
+"icons": {
+    "48": "icons/download.png"
+  },
+  "permissions" : [
+	"contextMenus"
+	],
+"background": {
+    "scripts": ["background.js"]
+  }
+}
